@@ -152,7 +152,7 @@ hosts=()              # do not sleep when 'hosts' are pingable
                       # example: <hosts="192.168.1.1 172.16.1.1">
 
 # before sleep
-setWol=               # set wol options before sleep
+setWol=g              # set wol options before sleep
 preRun=               # no additional commands to run
 
 # after waking up
