@@ -5,7 +5,7 @@
 <!ENTITY author    "Bergware">
 <!ENTITY version   "2025.10.05">
 <!ENTITY launch    "Settings/SleepSettings">
-<!ENTITY pluginURL "https://raw.githubusercontent.com/bergware/dynamix/master/unRAIDv6/&name;.plg">
+<!ENTITY pluginURL "https://raw.githubusercontent.com/AravindGopala/dynamix/DYNAMIX-MAIN-BRANCH-ARAVIND/unRAIDv6/&name;.plg">
 <!ENTITY source    "/boot/config/plugins/&name;/&name;">
 <!ENTITY MD5       "71ce7a187c6943feaef3f369071199f7">
 ]>
@@ -209,7 +209,7 @@ fi
 
 <!-- SOURCE PACKAGE -->
 <FILE Name="&source;.txz" Run="upgradepkg --install-new --reinstall">
-<URL>https://raw.githubusercontent.com/bergware/dynamix/master/archive/&name;.txz</URL>
+<URL>https://raw.githubusercontent.com/AravindGopala/dynamix/DYNAMIX-MAIN-BRANCH-ARAVIND/archive/&name;.txz</URL>
 <MD5>&MD5;</MD5>
 </FILE>
 
